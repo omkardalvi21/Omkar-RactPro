@@ -1,0 +1,70 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding: 60px 10%;
+  background-color: rgba(12, 12, 12, 0.6); /* Darker, sleek footer */
+  backdrop-filter: blur(10px);
+  border-top: 1px solid #1e293b;
+}
+
+.text h2 {
+  font-size: 60px; /* Big and bold for high-end feel */
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 20px;
+  color: #94a3b8; /* Professional Slate color */
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: transform 0.3s ease;
+}
+
+.link:hover {
+  transform: translateX(10px); /* Smooth movement on hover */
+}
+
+.link img {
+  width: 35px;
+  height: 35px;
+}
+
+.link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.link:hover a {
+  color: #60a5fa; /* Blue glow on hover */
+  border-bottom: 1px solid #60a5fa;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+}

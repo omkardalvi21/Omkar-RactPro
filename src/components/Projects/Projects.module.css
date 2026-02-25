@@ -1,0 +1,53 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--color-text);
+}
+
+.header {
+  margin-bottom: 40px;
+  text-align: left; /* Aligns with your "About" and "Experience" sections */
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #94a3b8;
+  font-weight: 400;
+}
+
+/* THE GRID SYSTEM - This makes it look first-class */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+  justify-items: center; /* Centers cards in their grid slot */
+  width: 100%;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+
+  .projects {
+    grid-template-columns: 1fr; /* Stacks cards on mobile */
+    gap: 25px;
+  }
+}

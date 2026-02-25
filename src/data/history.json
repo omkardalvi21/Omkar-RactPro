@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Data Science Certification",
+    "organisation": "The Kiran Academy",
+    "startDate": "May 2025",
+    "endDate": "Nov 2025",
+    "experiences": [
+      "Completed comprehensive training covering machine learning, data analysis, and Python programming.",
+      "Focused on statistical modeling and real-world project implementation[cite: 6, 18].",
+      "Refined skills in data analysis using tools like Pandas and NumPy[cite: 6, 13]."
+    ],
+    "imageSrc": "history/kiran_academy.jpg"
+  },
+  {
+    "role": "Java Full Stack Certification",
+    "organisation": "Capgemini",
+    "startDate": "June 2024",
+    "endDate": "Aug 2024",
+    "experiences": [
+      "Gained hands-on experience in full-stack development using Java and Eclipse[cite: 20].",
+      "Developed REST APIs and worked with front-end technologies[cite: 20].",
+      "Collaborated within agile workflows to deliver software components[cite: 20]."
+    ],
+    "imageSrc": "history/capgemini.jpeg"
+  },
+  {
+    "role": "AI Foundation Intern",
+    "organisation": "Microsoft",
+    "startDate": "April 2024",
+    "endDate": "May 2025",
+    "experiences": [
+      "Built foundational knowledge in artificial intelligence concepts and cloud-based AI services[cite: 22].",
+      "Studied and implemented responsible AI practices[cite: 22].",
+      "Explored the Azure ecosystem for AI-driven solutions[cite: 22]."
+    ],
+    "imageSrc": "history/microsoft.png"
+  }
+]

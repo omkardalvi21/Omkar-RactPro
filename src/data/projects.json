@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Django Quiz Platform",
+    "imageSrc": "projects/quiz.png",
+    "description": "A full-stack assessment system with real-time scoring, MySQL integration, and a custom admin dashboard for test management.",
+    "skills": ["Django", "Python", "MySQL", "Bootstrap"],
+    "demo": "https://github.com/omkardalvi21/QUIZAPP",
+    "source": "https://github.com/omkardalvi21/QUIZAPP"
+  },
+  {
+    "title": "Real-Time Power BI Dashboard",
+    "imageSrc": "projects/dashboard.png",
+    "description": "Transforming raw data into actionable insights using DAX queries and Power Query to visualize social media and business metrics.",
+    "skills": ["Power BI", "Data Analysis", "Excel", "DAX"],
+    "demo": "#",
+    "source": "#"
+  },
+  {
+    "title": "AI Image Classification",
+    "imageSrc": "projects/ai.png",
+    "description": "Built during my Microsoft internship, focusing on implementing Responsible AI practices for cloud-based computer vision tasks.",
+    "skills": ["Python", "Azure AI", "Machine Learning"],
+    "demo": "#",
+    "source": "#"
+  }
+]

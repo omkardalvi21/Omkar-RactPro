@@ -1,0 +1,100 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  backdrop-filter: blur(10px); /* Adds a high-end frosted glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 60px; /* Reduced slightly for tighter look */
+  margin-top: 100px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 40px; /* Bigger for impact */
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Better alignment for text lists */
+  gap: 40px;
+}
+
+.aboutImage {
+  width: 35%;
+  border-radius: 20px;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Tighter gap is more professional */
+  padding: 0;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Icons look better at the top of the text */
+  gap: 20px;
+  border-radius: 20px;
+  list-style: none;
+  padding: 20px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.15) 0%, /* Lowered opacity for subtle feel */
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+  transform: translateX(10px); /* Adds a subtle interactive "slide" */
+}
+
+.aboutItem img {
+  width: 50px; /* Set a standard icon size */
+}
+
+.aboutItem h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #60a5fa; /* Blue accent for titles */
+  margin-bottom: 8px;
+}
+
+/* FIXED: Description size reduced for professional hierarchy */
+.aboutItem p {
+  font-size: 18px; /* Changed from 25px to 18px */
+  line-height: 1.5;
+  color: #94a3b8; /* Slate color for readability */
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding: 20px 0;
+    margin-top: 60px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+}

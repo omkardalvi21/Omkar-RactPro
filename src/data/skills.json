@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "Power BI",
+    "imageSrc": "skills/powerbi.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/cloud-wifi.png"
+  }
+]
