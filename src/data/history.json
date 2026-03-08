@@ -23,16 +23,18 @@
     ],
     "imageSrc": "history/capgemini.jpeg"
   },
-  {
-    "role": "AI Foundation Intern",
-    "organisation": "Microsoft",
-    "startDate": "April 2024",
-    "endDate": "May 2025",
-    "experiences": [
-      "Built foundational knowledge in artificial intelligence concepts and cloud-based AI services[cite: 22].",
-      "Studied and implemented responsible AI practices[cite: 22].",
-      "Explored the Azure ecosystem for AI-driven solutions[cite: 22]."
-    ],
-    "imageSrc": "history/microsoft.png"
-  }
+{
+  "role": "React JS Development Certification",
+  "organisation": "GeeksforGeeks",
+  "startDate": "Feb 2026",
+  "endDate": "Feb 2026",
+  "experiences": [
+    "Completed the React JS Development Self-Paced program focusing on modern frontend engineering practices.",
+    "Built component-based applications using JSX, React Hooks, and advanced JavaScript (ES6+).",
+    "Implemented scalable state management using Redux and Redux Thunk.",
+    "Integrated REST APIs and developed Single Page Applications (SPA).",
+    "Used browser developer tools for debugging, performance optimization, and maintainable code structure."
+  ],
+  "imageSrc": "history/geeksforgeeks.png"
+}
 ]
