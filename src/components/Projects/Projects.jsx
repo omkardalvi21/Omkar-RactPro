@@ -1,3 +1,4 @@
+
 import React from "react";
 import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
@@ -12,11 +13,13 @@ export const Projects = () => {
           A collection of my work in Full-Stack Development and Data Science.
         </p>
       </div>
+
       <div className={styles.projects}>
-        {projects.map((project, id) => {
-          return <ProjectCard key={id} project={project} />;
-        })}
+        {projects.map((project, id) => (
+          <ProjectCard key={id} project={project} />
+        ))}
       </div>
     </section>
   );
 };
+

@@ -11,15 +11,11 @@ export const Hero = () => {
 
         <p className={styles.description}>
           Engineering graduate from <strong>Mumbai University (CGPA 7.5)</strong> with a focus on
-          scalable Full-Stack solutions and Data Analytics. Bridging the gap between
-          complex software architecture and actionable data insights.
+          scalable Full-Stack solutions and Data Analytics.
         </p>
 
         <div className={styles.btnContainer}>
-          <a
-            href="mailto:omkardalvi242003@gmail.com"
-            className={styles.contactBtn}
-          >
+          <a href="mailto:omkardalvi242003@gmail.com" className={styles.contactBtn}>
             Get In Touch
           </a>
 
@@ -34,15 +30,8 @@ export const Hero = () => {
       </div>
 
       <div className={styles.imgWrapper}>
-        <img
-          src={`${import.meta.env.BASE_URL}hero/heroImage.png`}
-          alt="Omkar Dalvi - Professional Portrait"
-          className={styles.heroImg}
-        />
+        <img src={heroImage} alt="Omkar Dalvi" className={styles.heroImg} />
       </div>
-
-      <div className={styles.topBlur}></div>
-      <div className={styles.bottomBlur}></div>
     </section>
   );
 };
