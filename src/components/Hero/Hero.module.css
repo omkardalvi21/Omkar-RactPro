@@ -152,6 +152,7 @@
   .heroImg {
     width: 70%;
     max-width: 300px;
+    border-radius: 50%;
   }
 
   .contactBtn {
