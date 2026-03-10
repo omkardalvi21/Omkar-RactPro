@@ -62,7 +62,8 @@
 .heroImg {
   width: 85%;
   z-index: 1;
-  animation: floating 4s ease-in-out infinite; /* Smoother animation */
+  animation: floating 4s ease-in-out infinite; 
+  border-radius: 50%; /* Makes the image circular for a softer look */
 }
 
 @keyframes floating {
@@ -152,7 +153,7 @@
   .heroImg {
     width: 70%;
     max-width: 300px;
-    border-radius: 50%;
+  
   }
 
   .contactBtn {
